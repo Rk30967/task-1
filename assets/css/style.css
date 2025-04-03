@@ -1,0 +1,63 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif; /* Font style */
+    background-color: rgb(145, 88, 128); /* Background color */
+    padding: 20px; /* Padding around the page */
+    margin: 0; /* Remove default margin */
+}
+
+/* Heading styling */
+h2 {
+    text-align: center;
+    color: #333; /* Dark color for headings */
+}
+
+/* Box styling */
+.box {
+    width: 300px; /* Set the width of the box */
+    height: 250px; /* Height to accommodate text */
+    background-color: rgb(221, 154, 217); /* Box background color */
+    border: 2px solid #333; /* Border around the box */
+    padding: 20px; /* Padding inside the box */
+    margin: 30px auto; /* Center box horizontally with margin */
+    box-sizing: border-box; /* Includes padding and border in dimensions */
+    text-align: center; /* Center text inside the box */
+    color: white; /* Text color */
+    font-size: 18px; /* Font size */
+    font-family: Arial, sans-serif; /* Font family */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for visual effect */
+}
+
+/* Style for the link */
+.tour-link {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold link text */
+}
+
+.tour-link:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #ff69b4; /* Pink color on hover */
+}
+
+/* Collage styling */
+.collage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns in grid */
+    gap: 15px; /* Space between images */
+    max-width: 1200px;
+    margin: 20px auto; /* Center the collage */
+}
+
+.collage img {
+    width: 100%; /* Make images fill the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for images */
+    transition: transform 0.3s ease-in-out; /* Smooth scale on hover */
+}
+
+/* Image hover effect */
+.collage img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
